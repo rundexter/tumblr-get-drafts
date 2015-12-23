@@ -4,23 +4,54 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "base-hostname",
+            "title":"Hostname"
+        },
+        {
+            "id": "before_id",
+            "title":"Before Post ID"
+        },
+        {
+            "id": "filter",
+            "title":"Filter"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "blog_name",
+            "title":"Blog Name"
+        },
+        {
+            "id": "id",
+            "title":"Post ID"
+        },
+        {
+            "id": "post_url",
+            "title":"Post URL"
+        },
+        {
+            "id": "type",
+            "title":"Post Type"
+        },
+        {
+            "id": "timestamp",
+            "title":"Timestamp"
+        },
+        {
+            "id": "date",
+            "title":"Date"
+        },
+        {
+            "id": "reblog_key",
+            "title":"Reblog Key"
+        },
+        {
+            "id": "tags",
+            "title":"Tags"
         }
-      */
     ],
+    "icon": "tumblr",
     "title": "Tumblr Get Drafts" /* Required.A display name for the module */
 }
